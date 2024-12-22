@@ -3,7 +3,9 @@ import React from 'react'
 import { Link } from 'expo-router'
 const Index = () => {
   return (
-    <View>
+    <View className='flex-1 justify-center items-center my-10 mx-10 '>
+    <Text className='  text-3xl'>Hello Hi</Text>
+
      <Link href = "/sign-in" >Sign In</Link>
      <Link href = "/explore" >Explore</Link>
      <Link href = "/profile" >Profile</Link>
